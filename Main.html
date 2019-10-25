@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MZK.Code</title>
+</head>
+<style>
+    body{
+        background: url(bk.jpg);
+    }
+    .head h1{
+        margin: auto;
+        color: rgb(255, 255, 255, .1);
+        border-radius: 20px;
+        text-align: left;
+        font-family: arial;
+        font-size: 55px;
+        background-image: url(g.jpg);
+        background-repeat: repeat-x;
+        -webkit-background-clip:text;
+        animation: animate 15s linear infinite;
+    }
+    @keyframes animate{
+        0%{
+            background-position: left 0px top 10px;
+        }
+        40%{
+            background-position: left 500px top 10px;
+        }
+    }
+    .hl{
+        border-color: orangered;
+        border-radius: 100px;
+        width: auto;
+        margin-right: 300px;
+        margin-left: 300px;
+        width: auto;
+        height: 3px;
+    }
+
+    .left{
+        margin-left: 370px;
+
+        justify-content: center;
+    }
+    input, option ,select{
+        display: flex;
+        margin-left: 20px;
+        width: auto;
+        color: orange;
+        background-color: transparent;
+        border-color:transparent;
+        
+        font-size: 15px;
+        display: inline;
+        align-items: center;
+        font-family: calibri;
+    }
+
+    input:hover{
+        background-color: rgb(243, 83, 9,.3);
+    }
+    select:hover{
+        background-color: rgb(243, 83, 9,.3);
+    }
+    option:hover{
+        background-color: rgb(243, 83, 9,.3);
+    }
+
+
+    .main{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        border: solid;
+        border-color: rgb(129, 20, 5);
+        padding: 5px;
+    }
+    .L{
+       
+        border: solid;
+        border-color: orangered;
+        width: 250px;
+        height: 1000px;
+    }
+    .M{
+        border: solid;
+        border-color: orangered;
+        width: 800px;
+        height: 1000px;
+    }
+    .R{
+        border: solid;
+        border-color: orangered;
+        width: 250px;
+        height: 1000px;
+    }
+
+    .footer{
+        border: solid;
+        border-color: orangered;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding: 5px;
+    }
+    .info{
+        border: 1px solid red;
+        width: 250px;
+        height: 300px;
+    }
+    .report{
+        background-color: transparent;
+        border-color: transparent;
+        display: flex;
+        flex-flow: row wrap;
+        
+        margin-left: 400px;
+
+    }
+    .rl{
+        border-color: orangered;
+        border-radius: 100px;
+        width: auto;
+        margin-right: 300px;
+        margin-left: 300px;
+        width: auto;
+        height: 3px;   
+    }
+    button{
+        width: 100px;
+        text-align: center;
+        background-color: rgb(146, 143, 143,.3);
+        border-color: transparent;
+        font-family: calibri;
+        font-size: 15px;
+    
+        margin-left: 20px;
+        color: orange;
+        
+    }
+    button:hover{
+        background-color: rgb(243, 83, 9,.3);
+    }
+
+</style>
+<body>
+    <div class="head">
+        <h1>CODE HOUSE</h1>
+    </div>
+    <hr class="hl">
+    <div class="pannel"> 
+        <div class="left">
+            <input type="button" value="Home">
+            <input type="button" value="Code">
+            <input type="button" value="Jobs">
+            <input type="button" value="Categories">
+            <input type="button" value="Library">
+            <input type="button" value="Videos">
+            <select name="More" id="">
+                <option value="Testing">More</option>
+                <option value="Testing">Testing</option>
+                <option value="Testing">Testing</option>
+                <option value="Testing">Testing</option>
+                <option value="Testing">Testing</option>
+            </select>
+        </div>
+        <hr class="hl">
+        <div class="main">
+            <div class="L">
+                <h2></h2>
+            </div>
+            <div class="M"> </div>
+            <div class="R"> </div>
+
+        </div>
+    </div>
+    <br>
+    <hr class="rl">
+    <div class=" report">
+        <a href=""><button type='button'>Report Error</button></a>
+        <a href=""><button type='button'>Print Page</button></a>
+        <a href=""><button type='button'>Forum</button></a>
+        <a href=""><button type='button'>About</button></a>
+    </div>
+    <hr class="rl">
+    <br>
+    <div class="footer" >
+        <div class="info"> </div>
+        <div class="info"> </div>
+        <div class="info"> </div>
+        <div class="info"> </div>
+    </div>
+</body>
+</html>
